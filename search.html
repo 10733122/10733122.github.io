@@ -8,24 +8,13 @@
 
 	$.getJSON(url, function(json) {
 		
-		var values = json.values, // 所有試算表資料
-			
-			html = "";
-alert(values[0]);
-		html += "<table>";
+		var values = json.values; // 所有試算表資料
+		var title = values[0];
 
-		values.forEach(function(rows) {
-			html += "<tr>";
-
-			rows.forEach(function(item) {
-				html += "<td>" + item + "</td>";
+			title.forEach(function(item) {
+				alert(item);
 			});
 
-			html += "</tr>";
-		});
 
-		html += "</table>";
-
-		$("#wfu_sheet_json").html(html);
 	});
 </script>
