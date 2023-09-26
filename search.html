@@ -1,9 +1,9 @@
 <div id="wfu_sheet_json"></div>
 <script src='//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js'></script>
 <script>
-	var spreadsheet_id = "", // 填入試算表 ID
-		tab_name = "", // 填入工作表名稱
-		api_key = "", // 填入 API 金鑰
+		var spreadsheet_id = "1ALMgEY9XtuCx0a6CxMoHhuVhIUyZOj_Hs41KYc6u47s", // 填入試算表 ID
+		tab_name = "1!A:A", // 填入工作表名稱
+		api_key = "AIzaSyCeQVn-SPEjceoZRAsld2m1S3oydTkK3sM", // 填入 API 金鑰
 		url = "https://sheets.googleapis.com/v4/spreadsheets/" + spreadsheet_id + "/values/" + tab_name + "?key=" + api_key;
 
 	$.getJSON(url, function(json) {
