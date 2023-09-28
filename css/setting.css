@@ -10,6 +10,11 @@
 .form-setting .form-floating label {
     font-size:1.5rem;
 }
+
+.form-setting .form-floating button {
+    font-size:1.8rem;
+}
+
 .form-setting .form-floating .form-select {
     font-size:2rem;
     height:5rem;
