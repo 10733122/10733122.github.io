@@ -7,11 +7,12 @@
     z-index: 2;
 }
 
-body select {
-    font-size: 1.2rem;
-
+.form-setting .form-floating label {
+    font-size:1.5rem;
 }
-
+.form-setting .form-floating .form-select {
+    font-size:2rem;
+}
 body table {
     font-size: 2rem;
 
